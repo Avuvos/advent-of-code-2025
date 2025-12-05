@@ -4,5 +4,5 @@ __pycache__/
 .env
 .idea
 
-# AoC puzzle inputs (copyrighted by Eric Wastl)
+# AoC custom puzzle inputs
 **/input.txt

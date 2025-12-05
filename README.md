@@ -19,6 +19,8 @@ Each day includes:
 
 ## Running Solutions
 
+Puzzle inputs are not included. Add your own `input.txt` in the day folder, or use `sample_input.txt` for testing.
+
 ```bash
 uv run day01/main.py
 ```
