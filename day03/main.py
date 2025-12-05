@@ -31,8 +31,8 @@ def solve_part2(data: str) -> int:
         for cur_digit in bank[LEN:]:
             new_max_digits = max_digits
             for i in range(LEN):
-                cur_max_digits = "".join(max_digits[0 : i] + max_digits[i + 1:] + [cur_digit])
-                cur_val = int(cur_max_digits)
+                cur_max_digits = max_digits[0 : i] + max_digits[i + 1:] + [cur_digit]
+                cur_val = int("".join(cur_max_digits))
                 if cur_val > best:
                     best = cur_val
                     new_max_digits = cur_max_digits
