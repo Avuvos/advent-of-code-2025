@@ -1,0 +1,6 @@
+[project]
+name = "aoc-2025"
+version = "0.1.0"
+description = "My solutions for Advent of Code 2025 in Python"
+requires-python = ">=3.11"
+dependencies = []
