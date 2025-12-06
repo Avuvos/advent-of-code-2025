@@ -6,8 +6,8 @@ DIRECTIONS = [(0, 1), (0, -1), (1, 0), (-1, 0), (1, 1), (-1, -1), (1, -1), (-1, 
 def solve_part1(data: str) -> int:
     grid = data.splitlines()
 
-    result = 0
     n, m = len(grid), len(grid[0])
+    result = 0
     for i in range(n):
         for j in range(m):
             if grid[i][j] != "@":
@@ -26,10 +26,10 @@ def solve_part2(data: str) -> int:
     grid = data.splitlines()
     grid = [[c for c in row] for row in grid]
 
-    result = 0
     n, m = len(grid), len(grid[0])
+    result = 0
     while True:
-        removed = 0
+        removed = False
         for i in range(n):
             for j in range(m):
                 if grid[i][j] != "@":
@@ -40,10 +40,10 @@ def solve_part2(data: str) -> int:
                     if 0 <= nx < n and 0 <= ny < m and grid[nx][ny] == "@":
                         count += 1
                 if count < 4:
-                    removed += 1
+                    removed = True
                     result += 1
                     grid[i][j] = '.'
-        if removed == 0:
+        if not removed:
             break
     return result
 
