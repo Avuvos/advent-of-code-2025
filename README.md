@@ -18,6 +18,7 @@ Each day includes:
 | 5   | ⭐     | ⭐     | [main.py](day05/main.py) | [README.md](day05/) |
 | 6   | ⭐     | ⭐     | [main.py](day06/main.py) | [README.md](day06/) |
 | 7   | ⭐     | ⭐     | [main.py](day07/main.py) | [README.md](day07/) |
+| 8   | ⭐     | ⭐     | [main.py](day08/main.py) | [README.md](day08/) |
 
 ## Running Solutions
 
