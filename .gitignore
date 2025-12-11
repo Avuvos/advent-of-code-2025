@@ -3,6 +3,7 @@ __pycache__/
 .venv/
 .env
 .idea
+.DS_Store
 
 # AoC custom puzzle inputs
 **/input.txt
